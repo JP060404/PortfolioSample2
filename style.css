@@ -57,7 +57,16 @@ body {
     display: block;
     font-size: 24px;
     font-weight: normal;
-    margin: 20px 0 30px;
+    margin: 20px 0 0px;
+}
+
+.item-list .name-english {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 0 30px;
+    text-align: center;
+    color: #030
 }
 
 .item-list p {
