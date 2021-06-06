@@ -1,7 +1,6 @@
 /* 
-画面のスタイルシート
+ç”»é¢ã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ
 */
-
 body {
     font-family: "Noto Sans JP", "Sans-serif";
     margin: 0;
@@ -11,10 +10,14 @@ body {
 .color-green {
     color: #00ABAE;
 }
-/* 
-[headerのスタイルシート]
-*/
 
+.sub-title {
+    font-size: 32px;
+}
+
+/* 
+[headerã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ]
+*/
 .block-header {
     margin: 10px 0;
     padding: 0 20px 10px;
@@ -26,4 +29,66 @@ body {
     color: #000;
     text-decoration: none;
     letter-spacing: 1px;
+}
+
+/* 
+[main]ã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ
+*/
+.block-main {
+    text-align: center;
+    margin: 100px 0;
+}
+
+/* 
+[profile]ã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ
+*/
+.item-list {
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.item-list img {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.item-list b {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.item-list p {
+    font-size: 15px;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon-list {
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-github img {
+    width: 40px;
+}
+
+.icon-twitter img {
+    width: 40px;
+}
+
+.icon-list li {
+    margin-right: 22px;
+}
+
+.icon-list li:last-child {
+    margin-right: 0;
 }
