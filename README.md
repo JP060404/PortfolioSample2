@@ -4,7 +4,7 @@ Portfolio Sample
 ポートフォリオのサンプルです。
 
 ## デモ
-[Webサイトを見る](http://localhost/portfolio/)
+[Webサイトを見る](https://js-tech.herokuapp.com/)
 
 ![Portfolio](https://user-images.githubusercontent.com/85295583/121031672-8653a900-c7e5-11eb-9064-4baa8875821b.JPG)
 
