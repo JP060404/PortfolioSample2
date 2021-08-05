@@ -147,7 +147,7 @@ body {
 }
 
 .works-list li img {
-    width: 350px;
+    width: 100%;
     border: 1px solid #ccc;
 }
 
